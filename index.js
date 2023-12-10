@@ -2,8 +2,11 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.use(express.json())
+
 const calculatorRoutes = require('./routes/calculatorRoutes')
 
+app.use('/', express.static('public'))
 app.use('/calculator', calculatorRoutes)
 
 app.listen(port, ()=>{
