@@ -1,6 +1,6 @@
 class Calculator {
     constructor() {
-        this.id = Date.now()
+        this.id = Math.floor(Math.random() * 10_000)
     }
     #log = (value) => {
         console.log(`[Calculator: ${this.id}]: ${value}`)
