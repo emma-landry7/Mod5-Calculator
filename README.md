@@ -8,3 +8,5 @@ Contains the client-side html page with the calculator for Lab 3
 Contains the calculator's controller for Lab 5
 ## Libraries
 Contains the calculator and logger libraries for Lab 6
+## Swagger.json
+Contains the swagger UI for Lab 7
